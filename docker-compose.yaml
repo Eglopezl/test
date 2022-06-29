@@ -3,7 +3,7 @@ services:
   mongodb:
     build:
       context: mongo
-    image: ${REPO}/test:mongo
+    image: ${REPO}/test
     networks:
       - robot-shop
     logging: &logging
