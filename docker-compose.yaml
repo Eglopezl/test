@@ -11,4 +11,8 @@ services:
       options:
         max-size: "25m"
         max-file: "2"
-  
+ 
+
+networks:
+  robot-shop:
+
